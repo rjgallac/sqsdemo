@@ -1,8 +1,8 @@
 package com.example.demo.consumer;
 
+import io.awspring.cloud.sqs.annotation.SqsListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.cloud.aws.messaging.listener.annotation.SqsListener;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;
